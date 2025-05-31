@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение
+venv/
+.env
+.flaskenv
+
+# Логи
+*.log
+
+# База данных SQLite (если вдруг случится)
+*.db
+
+# Миграции, сгенерированные автоматически (если хотите их не коммитить) —
+# но в нашем случае мы их включаем в репозиторий, поэтому не игнорируем.
+# migrations/
+
+# Docker
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.Python
+docker-compose.override.yml
